@@ -1,0 +1,5 @@
+The items we found in your image were: Envy Apples,Signature SELECT™ Café Bowl,Organic Fuji or Gala Apples,Jumbo Artichoke,Cuties Mandarin Oranges,Cucumber, Red or Green Bell Pepper,POM Wonderful Pomegranate Juice,Organics® Carrots,Red Seedless Grapes,Garlic or Shallots,Grab 'n Go Fresh Cut Mixed Berries,Coconut or Berry Almond Granola,Asparagus Spears,Organic Tomatoes on the Vine,Fresh Baked Muffins,Fresh Baked Pudding Ring,Tulips,Assorted Foliage,Green Salad,Deli Snacker,Signature Café Whole Roasted Chicken, Hot,BelGioioso Stacking Cheese,8-Piece Dark Meat Fried Chicken,Open Nature® Lamb Loin
+
+Curry Chicken Salad (MissedIngredientCount: 5)
+Items found in your image that are used in the Curry Chicken Salad recipe: carrot, cucumber, grapes, salad greens, 
+Items NOT found in your image that are used in the Curry Chicken Salad recipe: chicken, celery, madras curry powder, mayonnaise, turmeric powder,
