@@ -1,0 +1,147 @@
+{
+    "groceryItems": [
+        {
+            "name": "Envy Apples",
+            "price": 2.49,
+            "unit": "each",
+            "specialPrice": "Member Price"
+        },
+        {
+            "name": "Signature SELECT\u2122 Caf\u00e9 Bowl",
+            "price": 2.99,
+            "unit": "each",
+            "specialPrice": "Member Price"
+        },
+        {
+            "name": "Organic Fuji or Gala Apples",
+            "price": 2.99,
+            "unit": "per pound"
+        },
+        {
+            "name": "Jumbo Artichoke",
+            "price": 3.0,
+            "unit": "for 2",
+            "specialPrice": "Member Price for 2"
+        },
+        {
+            "name": "Cuties Mandarin Oranges",
+            "price": 6.99,
+            "unit": "each",
+            "specialPrice": "Member Price"
+        },
+        {
+            "name": "Cucumber, Red or Green Bell Pepper",
+            "price": 1.0,
+            "unit": "each",
+            "specialPrice": "Member Price"
+        },
+        {
+            "name": "POM Wonderful Pomegranate Juice",
+            "price": 3.99,
+            "unit": "each",
+            "specialPrice": "Member Price"
+        },
+        {
+            "name": "Organics\u00ae Carrots",
+            "price": 2.99,
+            "unit": "each",
+            "specialPrice": "Member Price"
+        },
+        {
+            "name": "Red Seedless Grapes",
+            "price": 5.99,
+            "unit": "each",
+            "specialPrice": "Member Price"
+        },
+        {
+            "name": "Garlic or Shallots",
+            "price": 0.5,
+            "unit": "for 2",
+            "specialPrice": "Member Price for 2"
+        },
+        {
+            "name": "Grab 'n Go Fresh Cut Mixed Berries",
+            "price": 5.0,
+            "unit": "each",
+            "specialPrice": "Every Day"
+        },
+        {
+            "name": "Coconut or Berry Almond Granola",
+            "price": 5.0,
+            "unit": "each",
+            "specialPrice": "Every Day"
+        },
+        {
+            "name": "Asparagus Spears",
+            "price": 5.0,
+            "unit": "each",
+            "specialPrice": "Every Day"
+        },
+        {
+            "name": "Organic Tomatoes on the Vine",
+            "price": 3.99,
+            "unit": "each",
+            "specialPrice": "Member Price"
+        },
+        {
+            "name": "Fresh Baked Muffins",
+            "price": 3.99,
+            "unit": "each",
+            "specialPrice": "Member Price"
+        },
+        {
+            "name": "Fresh Baked Pudding Ring",
+            "price": 5.0,
+            "unit": "each",
+            "specialPrice": "Member Price"
+        },
+        {
+            "name": "Tulips",
+            "price": 8.99,
+            "unit": "each",
+            "specialPrice": "Member Price"
+        },
+        {
+            "name": "Assorted Foliage",
+            "price": "15% off",
+            "unit": "each",
+            "specialPrice": "Member Price"
+        },
+        {
+            "name": "Green Salad",
+            "price": 4.99,
+            "unit": "each",
+            "specialPrice": "Member Price"
+        },
+        {
+            "name": "Deli Snacker",
+            "price": 5.0,
+            "unit": "each",
+            "specialPrice": "Every Day"
+        },
+        {
+            "name": "Signature Caf\u00e9 Whole Roasted Chicken, Hot",
+            "price": 8.99,
+            "unit": "each",
+            "specialPrice": "Every Day"
+        },
+        {
+            "name": "BelGioioso Stacking Cheese",
+            "price": 9.99,
+            "unit": "each",
+            "specialPrice": "Member Price"
+        },
+        {
+            "name": "8-Piece Dark Meat Fried Chicken",
+            "price": 5.0,
+            "unit": "each",
+            "specialPrice": "Member Price, Friday, Jan. 12th offer"
+        },
+        {
+            "name": "Open Nature\u00ae Lamb Loin",
+            "price": null,
+            "unit": null,
+            "specialPrice": null
+        }
+    ]
+}
