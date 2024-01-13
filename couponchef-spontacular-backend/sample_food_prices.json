@@ -1,0 +1,53 @@
+{
+    "groceryItems": [{
+            "name": "Turkey",
+            "price": 20.99,
+            "unit": "per lb"
+        },
+        {
+            "name": "Carrots",
+            "price": 3.50,
+            "unit": "per lb"
+        },
+        {
+            "name": "Onions",
+            "price": 2.25,
+            "unit": "per lb"
+        },
+        {
+            "name": "Milk",
+            "price": 4.00,
+            "unit": "per gallon"
+        },
+        {
+            "name": "Bread",
+            "price": 2.99,
+            "unit": "per loaf"
+        },
+        {
+            "name": "Apples",
+            "price": 5.50,
+            "unit": "per lb"
+        },
+        {
+            "name": "Bananas",
+            "price": 1.99,
+            "unit": "per lb"
+        },
+        {
+            "name": "Potatoes",
+            "price": 3.00,
+            "unit": "per lb"
+        },
+        {
+            "name": "Eggs",
+            "price": 2.50,
+            "unit": "per dozen"
+        },
+        {
+            "name": "Cheese",
+            "price": 6.00,
+            "unit": "per lb"
+        }
+    ]
+}
