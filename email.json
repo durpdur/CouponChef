@@ -1,0 +1,188 @@
+[
+    {
+        "title": "1. Curry Chicken Salad (MissedIngredientCount: 5)",
+        "usedIngredients": [
+            "carrot",
+            "cucumber",
+            "grapes",
+            "salad greens"
+        ],
+        "missingIngredients": [
+            "chicken",
+            "celery",
+            "madras curry powder",
+            "mayonnaise",
+            "turmeric powder"
+        ],
+        "Nutrition": [
+            {
+                "Calories": {
+                    "amount": 682.54,
+                    "unit": "kcal"
+                }
+            },
+            {
+                "Fat": {
+                    "amount": 52.87,
+                    "unit": "g"
+                }
+            },
+            {
+                "Carbohydrates": {
+                    "amount": 16.53,
+                    "unit": "g"
+                }
+            },
+            {
+                "Sodium": {
+                    "amount": 1018.86,
+                    "unit": "mg"
+                }
+            },
+            {
+                "Protein": {
+                    "amount": 34.64,
+                    "unit": "g"
+                }
+            },
+            {
+                "Fiber": {
+                    "amount": 2.91,
+                    "unit": "g"
+                }
+            }
+        ],
+        "Steps": [
+            "Strain the water from the cans of chicken and place the chicken in large mixing bowl.",
+            "Add mayonnaise. You can use more or less based on how moist you like your chicken salad.Season with salt and pepper to taste, go easy on the seasoning at this point because the main seasoning will occur at the end when you add the spices. Drop in the diced celery, carrot, cucumber and grapes and mix well. Once all the ingredients have been combined, add additional mayonnaise if you prefer a wetter consistency to the salad.Once the consistency is right, add in curry powder and turmeric powder. These are they key ingredients, so make sure you are using high quality spices. Start with a small amount of each spice and gradually add to taste - the measurements here are just recommendations, you should taste test as you go along. If possible, pop your mixing bowl into the fridge for an hour to let the flavors marry.",
+            "Serve of the Curry Chicken Salad on top of salad greens, no dressing necessary."
+        ]
+    },
+    {
+        "title": "2. Mediterranean Spinach Artichoke Dip (MissedIngredientCount: 7)",
+        "usedIngredients": [
+            "artichoke hearts",
+            "neufchatel cheese",
+            "monterey jack cheese",
+            "parmesan cheese",
+            "shallots"
+        ],
+        "missingIngredients": [
+            "spinach",
+            "nonfat greek yogurt",
+            "sun tomatoes",
+            "garlic cloves",
+            "thyme",
+            "paprika",
+            "kosher salt and pepper"
+        ],
+        "Nutrition": [
+            {
+                "Calories": {
+                    "amount": 117.7,
+                    "unit": "kcal"
+                }
+            },
+            {
+                "Fat": {
+                    "amount": 6.89,
+                    "unit": "g"
+                }
+            },
+            {
+                "Carbohydrates": {
+                    "amount": 7.57,
+                    "unit": "g"
+                }
+            },
+            {
+                "Sodium": {
+                    "amount": 456.19,
+                    "unit": "mg"
+                }
+            },
+            {
+                "Protein": {
+                    "amount": 7.41,
+                    "unit": "g"
+                }
+            },
+            {
+                "Fiber": {
+                    "amount": 2.25,
+                    "unit": "g"
+                }
+            }
+        ],
+        "Steps": [
+            "Preheat oven to 350 degrees.",
+            "In a large skillet, heat the oil from the sun dried tomatoes.",
+            "Add shallots and cook until translucent.",
+            "Add garlic and cook for an additional minute.",
+            "Add sun dried tomatoes, artichoke hearts, and dried thyme. Stir and cook for 2-3 minutes before adding the spinach. Cook for an additional few minutes and then transfer all items into a large bowl.",
+            "Add Neufchatel, Greek Yogurt, Monterey Jack Cheese and paprika to the spinach mixture. Season with salt and pepper.",
+            "Combine well. Lightly cover ramekins or other baking dishes with cooking spray. Spoon spinach mixture into the dishes and sprinkle the tops with Parmesan Cheese.",
+            "Bake for 20-25 minutes and then turn the broiler on. Broil the tops until they are golden brown.",
+            "Serve with chips, bread slices, crackers, or vegetable sticks."
+        ]
+    },
+    {
+        "title": "3. Spinach Salad with Strawberry Vinaigrette (MissedIngredientCount: 7)",
+        "usedIngredients": [
+            "chicken",
+            "feta cheese",
+            "shallot",
+            "strawberries"
+        ],
+        "missingIngredients": [
+            "almonds",
+            "balsamic vinegar",
+            "dijon mustard",
+            "thyme",
+            "ground pepper",
+            "spinach leaves",
+            "water"
+        ],
+        "Nutrition": [
+            {
+                "Calories": {
+                    "amount": 321.81,
+                    "unit": "kcal"
+                }
+            },
+            {
+                "Fat": {
+                    "amount": 12.73,
+                    "unit": "g"
+                }
+            },
+            {
+                "Carbohydrates": {
+                    "amount": 29.95,
+                    "unit": "g"
+                }
+            },
+            {
+                "Sodium": {
+                    "amount": 341.17,
+                    "unit": "mg"
+                }
+            },
+            {
+                "Protein": {
+                    "amount": 22.03,
+                    "unit": "g"
+                }
+            },
+            {
+                "Fiber": {
+                    "amount": 6.47,
+                    "unit": "g"
+                }
+            }
+        ],
+        "Steps": [
+            "Place everything on a plate!  :)"
+        ]
+    }
+]
