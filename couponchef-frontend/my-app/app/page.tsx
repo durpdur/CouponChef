@@ -13,7 +13,7 @@ export default function Component() {
       <header className="flex items-center justify-between px-6 py-4 bg-gray-800 text-white">
         <Link className="flex items-center gap-2" href="#">
           <Package2Icon className="h-6 w-6" />
-          <span className="text-lg font-semibold">Acme Inc</span>
+          <span className="text-lg font-semibold">CouponChef</span>
         </Link>
         <nav className="flex gap-4">
           <Link className="text-white hover:underline" href="#">
@@ -47,7 +47,7 @@ export default function Component() {
               Upload Ad
             </Button>
           </form>
-          <div className="border rounded-lg p-4">
+          {/* <div className="border rounded-lg p-4">
             <h2 className="text-lg font-semibold">Ad Preview</h2>
             <div className="mt-4">
               <h3 className="text-xl font-bold">Ad Title</h3>
@@ -56,15 +56,15 @@ export default function Component() {
                 alt="Ad Image"
                 className="aspect-[3/2] overflow-hidden rounded-lg object-cover mt-4"
                 height="200"
-                src="/placeholder.svg"
+                src="couponchef-frontend/my-app/app/placeholder.svg"
                 width="300"
               />
             </div>
-          </div>
+          </div> */}
         </div>
       </main>
       <footer className="flex items-center justify-center py-4 bg-gray-800 text-white">
-        <p>© 2024 Acme Inc. All rights reserved.</p>
+        <p>© 2024 CouponChef Inc. All rights reserved.</p>
       </footer>
     </div>
   )
