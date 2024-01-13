@@ -4,12 +4,15 @@ from flask_cors import CORS, cross_origin
 import base64
 import requests
 import json
+from dotenv import load_dotenv
+from openai import OpenAI
 
 app = Flask(__name__)
 CORS(app)
 # test
 
-api_key = "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"
+load_dotenv()
+api_key = os.environ.get("API_KEY")
 
 
 @app.route("/upload", methods=["POST"])
@@ -52,12 +55,35 @@ def saveImage():
             "https://api.openai.com/v1/chat/completions", headers=headers, json=payload
         )
 
-        file_path = "couponchef-dalle-backend/food_prices.json"
+        listed_food = response.json()["choices"][0]["message"]["content"]
+        print(listed_food)
+
+        client = OpenAI(api_key=api_key)
+        response = client.chat.completions.create(
+            model="gpt-3.5-turbo-1106",
+            response_format={"type": "json_object"},
+            messages=[
+                {
+                    "role": "system",
+                    "content": "You are a helpful assistant designed to output JSON.",
+                },
+                {
+                    "role": "user",
+                    "content": f"Please help me convert this response into JSON, where it is organized by groceryItems, name, price, and unit: {listed_food}",
+                },
+            ],
+        )
+
+        file_path = "../food_prices.json"
+        data = json.loads(response.json())
+        message_content = data["choices"][0]["message"]["content"]
+
         with open(file_path, "w") as json_file:
-            json.dump(response.json(), json_file, indent=4)
-        print(response.json())
+            json.dump(json.loads(message_content), json_file, indent=4)
+        print(message_content)
 
         return "Image received"
+
     else:
         return "No image file uploaded"
 
