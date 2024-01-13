@@ -7,7 +7,7 @@ file_path = '/Users/laurenceliao/Documents/GitHub/CouponChef/couponchef-spontacu
 
 
 #spoonacular stuff
-api_key = 'cf15ffd940b4403e82b0a9aeb727b1d8'
+api_key = ''
 end_point = 'https://api.spoonacular.com/recipes/findByIngredients'
 
 # print the contents of json file
