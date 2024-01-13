@@ -9,7 +9,6 @@ from openai import OpenAI
 
 app = Flask(__name__)
 CORS(app)
-# test
 
 load_dotenv()
 api_key = os.environ.get("API_KEY")
