@@ -47,7 +47,7 @@ export default function Component() {
               Upload Ad
             </Button>
           </form>
-          {/* <div className="border rounded-lg p-4">
+          <div className="border rounded-lg p-4">
             <h2 className="text-lg font-semibold">Ad Preview</h2>
             <div className="mt-4">
               <h3 className="text-xl font-bold">Ad Title</h3>
@@ -60,7 +60,7 @@ export default function Component() {
                 width="300"
               />
             </div>
-          </div> */}
+          </div>
         </div>
       </main>
       <footer className="flex items-center justify-center py-4 bg-gray-800 text-white">
