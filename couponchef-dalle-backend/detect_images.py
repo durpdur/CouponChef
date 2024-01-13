@@ -1,13 +1,14 @@
 import base64
 import json
 import requests
+from config_module import Config
 
 class DetectImages:
   def __init__(self):
     pass
   
   # OpenAI API Key
-  api_key = "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"
+  api_key = Config(API_KEY)
 
   headers = {
     "Content-Type": "application/json",
