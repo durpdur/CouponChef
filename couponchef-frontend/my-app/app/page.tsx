@@ -1,13 +1,39 @@
-/**
- * v0 by Vercel.
- * @see https://v0.dev/t/cQJeAVZBHOa
- */
+'use client';
+
 import Link from "next/link"
 import { Label } from "@/components/ui/label"
 import { Input } from "@/components/ui/input"
 import { Button } from "@/components/ui/button"
+import { JSX, SVGProps } from "react";
 
 export default function Component() {
+  async function uploadImage() {
+    // Get the selected image file from the input field
+    const imageInput = document.getElementById('image') as HTMLInputElement;
+    console.log("Image inputted");
+    const imageFile = imageInput?.files ? imageInput.files[0] : null;
+  
+    // Create a FormData object to send the image file
+    const formData = new FormData();
+    formData.append('image', imageFile as Blob);
+    console.log("form appended");
+  
+    try {
+      // Send the image to the server using fetch
+      const apiUrl = "http://127.0.0.1:5000/upload";
+      console.log("request pre-sent");
+      const response = await fetch(apiUrl, {
+        method: 'POST',
+        body: formData,
+      })
+        .then(response => location.reload())
+        .catch(err => console.log(err));
+      console.log("request sent");
+    } catch (error) {
+      console.error('Error uploading image:', error);
+    }
+  }
+  
   return (
     <div className="flex flex-col min-h-screen">
       <header className="flex items-center justify-between px-6 py-4 bg-gray-800 text-white">
@@ -33,17 +59,17 @@ export default function Component() {
           <form className="space-y-4">
             <div className="space-y-2">
               <Label htmlFor="title">Title</Label>
-              <Input id="title" placeholder="Enter the title of the ad" required />
+              <Input id="title" placeholder="Enter the title of the ad" />
             </div>
             <div className="space-y-2">
               <Label htmlFor="date-range">Date Range</Label>
-              <Input id="date-range" required type="date" />
+              <Input id="date-range" type="date" />
             </div>
             <div className="space-y-2">
               <Label htmlFor="image">Image</Label>
               <Input accept="image/*" id="image" required type="file" />
             </div>
-            <Button className="w-full" type="submit">
+            <Button className="w-full" type="submit" onClick={uploadImage}>
               Upload Ad
             </Button>
           </form>
@@ -70,7 +96,7 @@ export default function Component() {
   )
 }
 
-function Package2Icon(props) {
+function Package2Icon(props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}

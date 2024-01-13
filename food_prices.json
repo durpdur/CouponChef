@@ -2,146 +2,93 @@
     "groceryItems": [
         {
             "name": "Envy Apples",
-            "price": 2.49,
-            "unit": "each",
-            "specialPrice": "Member Price"
+            "price": "$2.49",
+            "unit": "each"
         },
         {
             "name": "Signature SELECT\u2122 Caf\u00e9 Bowl",
-            "price": 2.99,
-            "unit": "each",
-            "specialPrice": "Member Price"
+            "price": "$2.99",
+            "unit": "each"
         },
         {
             "name": "Organic Fuji or Gala Apples",
-            "price": 2.99,
-            "unit": "per pound"
+            "price": "$2.99",
+            "unit": "lb"
         },
         {
             "name": "Jumbo Artichoke",
-            "price": 3.0,
-            "unit": "for 2",
-            "specialPrice": "Member Price for 2"
+            "price": "$3",
+            "unit": "each"
         },
         {
-            "name": "Cuties Mandarin Oranges",
-            "price": 6.99,
-            "unit": "each",
-            "specialPrice": "Member Price"
+            "name": "Cuties\u00ae Mandarins 3 lb Bag",
+            "price": "$6.99",
+            "unit": "each"
         },
         {
             "name": "Cucumber, Red or Green Bell Pepper",
-            "price": 1.0,
-            "unit": "each",
-            "specialPrice": "Member Price"
+            "price": "$1",
+            "unit": "each"
         },
         {
-            "name": "POM Wonderful Pomegranate Juice",
-            "price": 3.99,
-            "unit": "each",
-            "specialPrice": "Member Price"
+            "name": "POM Wonderful Pomegranate",
+            "price": "$3.99",
+            "unit": "each"
         },
         {
-            "name": "Organics\u00ae Carrots",
-            "price": 2.99,
-            "unit": "each",
-            "specialPrice": "Member Price"
+            "name": "Organic\u00ae Raspberries 6 oz",
+            "price": "$2.99",
+            "unit": "each"
         },
         {
-            "name": "Red Seedless Grapes",
-            "price": 5.99,
-            "unit": "each",
-            "specialPrice": "Member Price"
+            "name": "Red Globe Grapes",
+            "price": "$2.99",
+            "unit": "lb"
+        },
+        {
+            "name": "Red Cherries",
+            "price": "$5.99",
+            "unit": "lb"
         },
         {
             "name": "Garlic or Shallots",
-            "price": 0.5,
-            "unit": "for 2",
-            "specialPrice": "Member Price for 2"
+            "price": "$0.5",
+            "unit": "each"
         },
         {
-            "name": "Grab 'n Go Fresh Cut Mixed Berries",
-            "price": 5.0,
-            "unit": "each",
-            "specialPrice": "Every Day"
+            "name": "Fresh Cut Produce Grab 'n Go Mixed Berries",
+            "price": "$5",
+            "unit": "each"
         },
         {
-            "name": "Coconut or Berry Almond Granola",
-            "price": 5.0,
-            "unit": "each",
-            "specialPrice": "Every Day"
+            "name": "Coconut or Brown Ataulfo Variety",
+            "price": "$5",
+            "unit": "each"
         },
         {
-            "name": "Asparagus Spears",
-            "price": 5.0,
-            "unit": "each",
-            "specialPrice": "Every Day"
+            "name": "Asparagus",
+            "price": "$5",
+            "unit": "each"
         },
         {
-            "name": "Organic Tomatoes on the Vine",
-            "price": 3.99,
-            "unit": "each",
-            "specialPrice": "Member Price"
+            "name": "Organic Tomatoes On-the-Vine",
+            "price": "$3.99",
+            "unit": "lb"
         },
         {
             "name": "Fresh Baked Muffins",
-            "price": 3.99,
-            "unit": "each",
-            "specialPrice": "Member Price"
+            "price": "$3.99",
+            "unit": "each"
         },
         {
             "name": "Fresh Baked Pudding Ring",
-            "price": 5.0,
-            "unit": "each",
-            "specialPrice": "Member Price"
+            "price": "$5",
+            "unit": "each"
         },
         {
-            "name": "Tulips",
-            "price": 8.99,
-            "unit": "each",
-            "specialPrice": "Member Price"
-        },
-        {
-            "name": "Assorted Foliage",
-            "price": "15% off",
-            "unit": "each",
-            "specialPrice": "Member Price"
-        },
-        {
-            "name": "Green Salad",
-            "price": 4.99,
-            "unit": "each",
-            "specialPrice": "Member Price"
-        },
-        {
-            "name": "Deli Snacker",
-            "price": 5.0,
-            "unit": "each",
-            "specialPrice": "Every Day"
-        },
-        {
-            "name": "Signature Caf\u00e9 Whole Roasted Chicken, Hot",
-            "price": 8.99,
-            "unit": "each",
-            "specialPrice": "Every Day"
-        },
-        {
-            "name": "BelGioioso Stacking Cheese",
-            "price": 9.99,
-            "unit": "each",
-            "specialPrice": "Member Price"
-        },
-        {
-            "name": "8-Piece Dark Meat Fried Chicken",
-            "price": 5.0,
-            "unit": "each",
-            "specialPrice": "Member Price, Friday, Jan. 12th offer"
-        },
-        {
-            "name": "Open Nature\u00ae Lamb Loin",
+            "name": "Tulips 10 Stem",
             "price": null,
-            "unit": null,
-            "specialPrice": null
+            "unit": null
         }
     ]
 }
