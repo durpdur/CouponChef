@@ -7,7 +7,6 @@ import { Button } from "@/components/ui/button"
 import { JSX, SVGProps } from "react";
 
 export default function Component() {
-
   async function uploadImage() {
     // Get the selected image file from the input field
     const imageInput = document.getElementById('image') as HTMLInputElement;
@@ -17,16 +16,19 @@ export default function Component() {
     // Create a FormData object to send the image file
     const formData = new FormData();
     formData.append('image', imageFile as Blob);
+    console.log("form appended");
   
     try {
       // Send the image to the server using fetch
-      const apiUrl = "http://localhost:5000/";
+      const apiUrl = "http://127.0.0.1:5000/upload";
+      console.log("request pre-sent");
       const response = await fetch(apiUrl, {
         method: 'POST',
         body: formData,
-        credentials: 'include',
-      });
-      console.log('response');
+      })
+        .then(response => location.reload())
+        .catch(err => console.log(err));
+      console.log("request sent");
     } catch (error) {
       console.error('Error uploading image:', error);
     }
