@@ -73,16 +73,13 @@ export default function Component() {
               Upload Ad
             </Button>
           </form>
-          <div className="border rounded-lg p-4">
-            <h2 className="text-lg font-semibold">Ad Preview</h2>
-            <div className="mt-4">
-              <h3 className="text-xl font-bold">Ad Title</h3>
-              <p className="text-gray-500 dark:text-gray-400">Ad Description</p>
+          <div className="border rounded-lg p-4" >
+          <div className="mt-4 flex justify-center">
               <img
                 alt="Ad Image"
-                className="aspect-[3/2] overflow-hidden rounded-lg object-cover mt-4"
+                className="aspect-[1] overflow-hidden rounded-lg object-cover mt-4"
                 height="200"
-                src="couponchef-frontend/my-app/app/placeholder.svg"
+                src="https://images.freeimages.com/image/previews/98a/self-love-breakfast-png-5690104.png"
                 width="300"
               />
             </div>
